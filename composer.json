@@ -1,13 +1,22 @@
 {
     "name": "datasdk/available",
-    "description": "Available model and traits for MyProject",
+    "description": "Available model and traits for DataSDK",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "MyProject\\Available\\": "src/"
+            "DataSDK\\Available\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DataSDK\\Available\\AvailableServiceProvider"
+            ]
         }
     },
     "require": {
+        "datasdk/tools": "^1.0",
         "php": "^8.0"
     }
 }

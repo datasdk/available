@@ -1,8 +1,8 @@
 <?php
 
-namespace MyProject\Available\Traits;
+namespace DataSDK\Available\Traits;
 
-use MyProject\Available\Models\Available as Availability;
+use DataSDK\Available\Models\Available as Availability;
 use Carbon\Carbon;
 
 trait Available

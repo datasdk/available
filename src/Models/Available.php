@@ -1,10 +1,10 @@
 <?php
 
-namespace MyProject\Available\Models;
+namespace DataSDK\Available\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\DateFormat\DateFormat;
-use App\Contracts\Interfaces\AvailableInterface;
+use DataSDK\Tools\Traits\DateFormat;
+use DataSDK\Available\Contracts\AvailableInterface;
 use Carbon\Carbon;
 
 class Available extends Model implements AvailableInterface
