@@ -1,0 +1,12 @@
+{
+    "name": "datasdk/available",
+    "description": "Available model and traits for MyProject",
+    "autoload": {
+        "psr-4": {
+            "MyProject\\Available\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
