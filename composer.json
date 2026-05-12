@@ -1,6 +1,7 @@
 {
     "name": "datasdk/available",
     "description": "Available model and traits for MyProject",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "MyProject\\Available\\": "src/"
